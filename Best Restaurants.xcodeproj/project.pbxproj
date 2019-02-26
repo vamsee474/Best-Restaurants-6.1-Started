@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1212C01F212322B400479A05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1212C01E212322B400479A05 /* AppDelegate.swift */; };
-		1212C021212322B400479A05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1212C020212322B400479A05 /* ViewController.swift */; };
 		1212C024212322B400479A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1212C022212322B400479A05 /* Main.storyboard */; };
 		1212C026212322B500479A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1212C025212322B500479A05 /* Assets.xcassets */; };
 		1212C029212322B500479A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1212C027212322B500479A05 /* LaunchScreen.storyboard */; };
+		1288A7DB21275A5D00B5E666 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1288A7DA21275A5D00B5E666 /* Restaurants.swift */; };
+		12A0122221237C3C008CB080 /* RestaurantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A0122121237C3C008CB080 /* RestaurantsTableViewController.swift */; };
+		39FB595922259CED0091FB77 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FB595822259CED0091FB77 /* RestaurantDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1212C01B212322B400479A05 /* ExpendableBestFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpendableBestFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1212C01B212322B400479A05 /* BestRestaurants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestRestaurants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1212C01E212322B400479A05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1212C020212322B400479A05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1212C023212322B400479A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1212C025212322B500479A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1212C028212322B500479A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1212C02A212322B500479A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1288A7DA21275A5D00B5E666 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		1288A7DE2128789E00B5E666 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A0122121237C3C008CB080 /* RestaurantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewController.swift; sourceTree = "<group>"; };
+		39FB595822259CED0091FB77 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		1212C012212322B400479A05 = {
 			isa = PBXGroup;
 			children = (
-				1212C01D212322B400479A05 /* ExpendableBestFriends */,
+				1212C01D212322B400479A05 /* Best Restaurants */,
 				1212C01C212322B400479A05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,32 @@
 		1212C01C212322B400479A05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1212C01B212322B400479A05 /* ExpendableBestFriends.app */,
+				1212C01B212322B400479A05 /* BestRestaurants.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1212C01D212322B400479A05 /* ExpendableBestFriends */ = {
+		1212C01D212322B400479A05 /* Best Restaurants */ = {
 			isa = PBXGroup;
 			children = (
+				1288A7DA21275A5D00B5E666 /* Restaurants.swift */,
 				1212C01E212322B400479A05 /* AppDelegate.swift */,
-				1212C020212322B400479A05 /* ViewController.swift */,
+				12A0122121237C3C008CB080 /* RestaurantsTableViewController.swift */,
 				1212C022212322B400479A05 /* Main.storyboard */,
+				39FB595822259CED0091FB77 /* RestaurantDetailViewController.swift */,
 				1212C025212322B500479A05 /* Assets.xcassets */,
 				1212C027212322B500479A05 /* LaunchScreen.storyboard */,
-				1212C02A212322B500479A05 /* Info.plist */,
+				1288A7DE2128789E00B5E666 /* Info.plist */,
 			);
-			path = ExpendableBestFriends;
+			path = "Best Restaurants";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1212C01A212322B400479A05 /* ExpendableBestFriends */ = {
+		1212C01A212322B400479A05 /* BestRestaurants */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1212C02D212322B500479A05 /* Build configuration list for PBXNativeTarget "ExpendableBestFriends" */;
+			buildConfigurationList = 1212C02D212322B500479A05 /* Build configuration list for PBXNativeTarget "BestRestaurants" */;
 			buildPhases = (
 				1212C017212322B400479A05 /* Sources */,
 				1212C018212322B400479A05 /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = ExpendableBestFriends;
+			name = BestRestaurants;
 			productName = ExpendableBestFriends;
-			productReference = 1212C01B212322B400479A05 /* ExpendableBestFriends.app */;
+			productReference = 1212C01B212322B400479A05 /* BestRestaurants.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +102,11 @@
 				TargetAttributes = {
 					1212C01A212322B400479A05 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
-			buildConfigurationList = 1212C016212322B400479A05 /* Build configuration list for PBXProject "ExpendableBestFriends" */;
+			buildConfigurationList = 1212C016212322B400479A05 /* Build configuration list for PBXProject "Best Restaurants" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1212C01A212322B400479A05 /* ExpendableBestFriends */,
+				1212C01A212322B400479A05 /* BestRestaurants */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1212C021212322B400479A05 /* ViewController.swift in Sources */,
+				1288A7DB21275A5D00B5E666 /* Restaurants.swift in Sources */,
+				12A0122221237C3C008CB080 /* RestaurantsTableViewController.swift in Sources */,
+				39FB595922259CED0091FB77 /* RestaurantDetailViewController.swift in Sources */,
 				1212C01F212322B400479A05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,14 +290,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ExpendableBestFriends/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Best Restaurants/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.ExpendableBestFriends;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.BestRestaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -298,14 +307,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ExpendableBestFriends/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Best Restaurants/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.ExpendableBestFriends;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.BestRestaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -313,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1212C016212322B400479A05 /* Build configuration list for PBXProject "ExpendableBestFriends" */ = {
+		1212C016212322B400479A05 /* Build configuration list for PBXProject "Best Restaurants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1212C02B212322B500479A05 /* Debug */,
@@ -322,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1212C02D212322B500479A05 /* Build configuration list for PBXNativeTarget "ExpendableBestFriends" */ = {
+		1212C02D212322B500479A05 /* Build configuration list for PBXNativeTarget "BestRestaurants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1212C02E212322B500479A05 /* Debug */,
